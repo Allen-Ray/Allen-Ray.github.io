@@ -335,9 +335,10 @@ form {
 }
 
 /*校训*/
-.xiaoxun img{
-
-	margin: 9px 0px 0px 35px;
+.xiaoxun {
+	display:block;
+	margin: 37px 0px 0px 35px;
+	float:left;
 }
 
 .gxtp {
@@ -346,6 +347,7 @@ form {
 	margin:26px 0px 15px 34px ;
 	padding: 5px;
 	border: 1px solid #2dc0f3;
+	float:left;
 }
 /*页脚*/
 #footer {
