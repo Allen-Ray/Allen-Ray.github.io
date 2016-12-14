@@ -351,8 +351,8 @@ form {
 /*页脚*/
 #footer {
 	clear: both;
-	margin: 0 auto;
-	width: 960px;
+	margin-left: 204px;
+	width: 962px;
 	height: 80px;
 	color: #6c6c6c;
 	font-size: 12px;
