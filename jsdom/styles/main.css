@@ -1,0 +1,118 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #4c4c4c;
+}
+table{
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+body{
+	margin: 1em 10%;
+	background: linear-gradient(#246655, #259679);
+}
+header{
+	background-color: #061c10;
+	border:1px solid #ccc;
+}
+.team{
+	float: right;
+	margin-top: 2px;
+}
+nav{
+	background-color: #778898;
+	border-top: 1px solid #ccc;
+	height: 25px;
+	padding-left: 100px;
+}
+nav li{
+	display: inline;
+}
+nav li a{
+	width: 100px;
+	display: block;
+	float: left;
+	line-height: 25px;
+	text-align: center;
+	border-left: 1px solid #ccc;
+	color: #fff;
+}
+nav li a:hover{
+	background-color: #ffbb56;
+}
+nav li .active{
+	background-color: #47999a;
+}
+nav li .last{
+	border-right: 1px solid #ccc;
+}
+article{
+	background-color: #eeddcd;
+	padding: 10px 100px 0 100px;
+}
+#slideshow{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+#preview{
+	position: absolute;
+	border-width: 0;
+	outline-width: 0;
+}
+#frame{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+/*about*/
+table td{
+	padding:5px 5px 0 5px;
+}
+.banInfo  {
+	background-color: #eeddcd;
+	border: none;
+	padding: 0;
+}
+.banInfo li a {
+	background-color: #ffbb56;
+}
+#album tr:hover{
+	background-color: #778899;
+}
+
+/*photos*/
+#imagegallery li {
+	display: inline;
+	list-style-type: none;
+}
+#description{
+	font-size: 12px;
+}
+#placeholder{
+	border: 1px solid #ccc;
+}
+
+/*contact*/
+.concert th{
+	background-color: #445555;
+	color: #fff;
+}
+.concert tr:nth-child(2n){
+	background-color: #eecc88;
+}
+.concert tr:nth-child(2n-1){
+	background-color: #eebb66;
+}
+.concert tr:hover{
+	background-color: #778899;
+}
+.concert td{
+	padding-left: 20px;
+	padding-right: 50px;
+}

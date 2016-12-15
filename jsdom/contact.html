@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sodagreen</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo.gif" alt="logo">
+		<img src="images/5_big.gif" alt="team" class="team">
+		<nav>
+			<ul>
+				<li><a href="index.html">主页</a></li>
+				<li><a href="about.html">关于我们</a></li>
+				<li><a href="photos.html">组合照片</a></li>
+				<li><a href="live.html">演唱会信息</a></li>
+				<li><a href="contact.html" class="last">联系我们</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<h1>联系乐队</h1>
+		<p>&nbsp;</p>
+		<form method="get">
+			<label for="name">名字:<br></label>
+			<input type="text" id="name" placeholder="请输入您的名字" required="required">
+			<p>&nbsp;</p>
+			<label for="sex">性别:</label>
+			<select id="sex">
+				<option>男</option>
+				<option>女</option>
+			</select>
+			<p>&nbsp;</p>
+			<label for="email">邮箱:<br></label>
+			<input type="email" id="email" placeholder="请输入您的邮箱地址" required="required">
+			<p>&nbsp;</p>
+			<label for="message">留言:<br></label>
+			<textarea placeholder="请输入您的留言信息" cols="45" rows="7" id="message" required="required"></textarea>
+			<p>&nbsp;</p>
+			<input type="submit" value="提交">
+			<p>&nbsp;</p>
+		</form>
+	</article>
+	<script type="text/javascript" src="scripts/common.js"></script>
+</body>
+</html>
